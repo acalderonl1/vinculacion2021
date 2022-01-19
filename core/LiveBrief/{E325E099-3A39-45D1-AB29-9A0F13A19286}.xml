@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration date="2020/10/28" author="e.World Technology Ltd.">
+  <project id="{E325E099-3A39-45D1-AB29-9A0F13A19286}" file="D:\Sistemas\Documents\PHPMaker\Projects\2020\LiveBrief.pmp" name="LiveBrief" product="PHPMaker" version="15.0" datetime="2020/10/28 15:30:34" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0">
+    <table id="eventos_brief" name="eventos_brief" caption="Brief de eventos" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="eventos_calendario" name="eventos_calendario" caption="Calendario de eventos" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="eventos_conf" name="eventos_conf" caption="Configuraciones" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="eventos_costo_prensa" name="eventos_costo_prensa" caption="eventos costo prensa" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="eventos_directores" name="eventos_directores" caption="Directores" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="eventos_empresarios" name="eventos_empresarios" caption="Empresarios" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="eventos_mercadeo" name="eventos_mercadeo" caption="Proceso a Eventos" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="eventos_promos" name="eventos_promos" caption="Pautas en Redes Sociales" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="eventos_resultados" name="eventos_resultados" caption="eventos resultados" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="eventos_tarjeta" name="eventos_tarjeta" caption=" Recargas" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="pagos_socias" name="pagos_socias" caption="pagos socias" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="tape_conf" name="tape_conf" caption="tape conf" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="usuario" name="usuario" caption="Usuario" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="main" name="main.php" caption="Main" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="eventos_logcal" name="eventos_logcal" caption="eventos logcal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="eventos_notificaciones" name="eventos_notificaciones" caption="eventos notificaciones" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="cotizador_items" name="cotizador_items" caption="cotizador items" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="brief_logcal" name="brief_logcal" caption="brief logcal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="cotizador" name="cotizador" caption="cotizador" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="cotizador_detalles" name="cotizador_detalles" caption="cotizador detalles" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="hist_estadisticas" name="hist_estadisticas" caption="hist estadisticas" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Live_Brief" name="Live_Brief" caption="Live Brief" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Live_Brief_Post" name="Live_Brief_Post" caption="Mercadeo en Redes" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Live_Brief_categorias" name="Live_Brief_categorias" caption="Live Brief categorias" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Reporte_OnDemand" name="Reporte.OnDemand.php" caption="Reporte On Demand" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Reporte_Post" name="Reporte.Post.php" caption="Reporte Post e Historias" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Reporte_LiveStream" name="Reporte.LiveStream.php" caption="Reporte Live Streaming" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Live_Productor" name="Live_Productor" caption="Live Productor" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Live_Brief_Log" name="Live_Brief_Log" caption="Live Brief Log" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Live_Brief_Fechas" name="Live_Brief_Fechas" caption="Fechas del evento" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Finanzas_Archivos" name="Finanzas_Archivos" caption="Subir Archivo Excel" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Finanzas_Banco" name="Finanzas_Banco" caption="Finanzas Banco" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Escuelas_Asistencia" name="Escuelas_Asistencia" caption="Escuelas Asistencia" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+  </project>
+</configuration>
