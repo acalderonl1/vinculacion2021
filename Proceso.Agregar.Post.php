@@ -79,7 +79,7 @@ $post= base64_encode($_POST[Post]);
  
  // Redireccionar
  
-   echo '<meta http-equiv="refresh" content="10; url=https://www.tcagye.com/2020/Reporte.Post.php">';
+   echo '<meta http-equiv="refresh" content="10; url=http://localhost/VINCULACION/Reporte.Post.php">';
 
 } 
 

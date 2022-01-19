@@ -69,7 +69,7 @@ if($_GET[y]==''){$y= date(Y);}else{$y=$_GET[y];}
     <input type="number" class="form-control" name="y" value="<?php echo $y;?>" style="width:80px;">
   </div>
   <button type="submit" class="btn btn-primary mb-2">Generar</button>
-  <a href="https://www.tcagye.com/2020/Proceso.Agregar.Post.php" class="btn btn-default mb-2" >Agregar</a>
+  <a href="http://localhost/VINCULACION/Proceso.Agregar.Post.php" class="btn btn-default mb-2" >Agregar</a>
 
 </form></td>
 
@@ -117,7 +117,7 @@ ORDER BY
 $a = ExecuteRows($sql);$b = json_encode($a);$c = json_decode($b);
 foreach($c as $obj){ ?>
 <tr><td style="105">
-<img src="https://www.tcagye.com/data/images/<?php echo $obj->imagen;?>" width="104" height="180" ></td>
+<img src="http://localhost/data/images/<?php echo $obj->imagen;?>" width="104" height="180" ></td>
 <td style="width:6cm">
 <B>
 Categoría: <?php echo $obj->titulo1;?><br>
@@ -130,7 +130,7 @@ Fecha de publicación: <?php echo $obj->fecha;?>
 <?php echo base64_decode($obj->post);?>
 </td>
 <td style="105">
-<?php if($obj->captura !=''){?><img src="https://www.tcagye.com/data/images/<?php echo $obj->captura;?>" width="104" height="180" ><?php }else{ ?>
+<?php if($obj->captura !=''){?><img src="http://localhost/data/images/<?php echo $obj->captura;?>" width="104" height="180" ><?php }else{ ?>
 
 <a href="<?php echo $obj->urlIG;?>">Ver Post en Instagram</a><BR><BR>
 <a href="<?php echo $obj->urlFB;?>">Ver Post en Facebook</a>

@@ -32,7 +32,7 @@ SetClientVar("login", LoginStatus());
 Page_Rendering();
 ?>
 <?php include_once $RELATIVE_PATH . "header.php" ?>
-<!-- %%Custom page content begin%% --><!-- %%Custom page content end%% --><?php if (DEBUG_ENABLED) echo GetDebugMessage(); ?>
+<!-- %%Custom page content begin%% --><!-- %%Custom page content end%% --><?php if ('DEBUG_ENABLED') echo GetDebugMessage(); ?>
 <?php include_once $RELATIVE_PATH . "footer.php" ?>
 <?php
 $main->terminate();

@@ -287,7 +287,7 @@ if($tmp->tipodato =='5'){?>
 <br>
 <div class="btn-group" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/LiveBrief/Live_Brief_Fechasedit.php?Id=<?php echo $tmp->Id;?>&showmaster=Live_Brief&fk_Id=<?php echo $tmp->FechaId;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/LiveBrief/Live_Brief_Fechasedit.php?Id=<?php echo $tmp->Id;?>&showmaster=Live_Brief&fk_Id=<?php echo $tmp->FechaId;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <a class="btn btn-default btn-sm"href="Live_Brief_Fechaslist.php?showmaster=Live_Brief&fk_Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 </div>
  </div>
@@ -308,7 +308,7 @@ if($tmp->tipodato =='7'){?>
 <br>
 <div class="btn-group" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/LiveBrief/Live_Brief_Fechasedit.php?Id=<?php echo $tmp->Id;?>&showmaster=Live_Brief&fk_Id=<?php echo $tmp->FechaId;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/LiveBrief/Live_Brief_Fechasedit.php?Id=<?php echo $tmp->Id;?>&showmaster=Live_Brief&fk_Id=<?php echo $tmp->FechaId;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <a class="btn btn-default btn-sm"href="Live_Brief_Fechaslist.php?showmaster=Live_Brief&fk_Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 </div>
 </div>
@@ -330,7 +330,7 @@ if($tmp->tipodato =='6'){?>
 <br>
 <div class="btn-group" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/LiveBrief/Live_Brief_Fechasedit.php?Id=<?php echo $tmp->Id;?>&showmaster=Live_Brief&fk_Id=<?php echo $tmp->FechaId;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/LiveBrief/Live_Brief_Fechasedit.php?Id=<?php echo $tmp->Id;?>&showmaster=Live_Brief&fk_Id=<?php echo $tmp->FechaId;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <a class="btn btn-default btn-sm"href="Live_Brief_Fechaslist.php?showmaster=Live_Brief&fk_Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 </div>
 </div>
@@ -352,7 +352,7 @@ if($tmp->tipodato =='3'&& $tmp->categoria!='21'){?>
 <br>
 <div class="btn-group" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 </div>
 </div>
 </div>
@@ -381,7 +381,7 @@ if($tmp->tipodato =='1'){?>
 <br>
 <div class="btn-group" role="group" aria-label="Evento<?php echo $row->Id;?>">
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <?php if($tmp->Grabar!='2'){?>
  <button type="button" class="btn btn-warning btn-sm"><i class="fa fa-video-camera" aria-hidden="true"></i> <small>
  <?php echo  ExecuteScalar("SELECT `Live_Brief_Fechas`.`fecha` FROM `Live_Brief_Fechas` WHERE  `Live_Brief_Fechas`.`IdEvento` = '$tmp->Id' AND  `Live_Brief_Fechas`.`tipodato` = '5'");
@@ -406,7 +406,7 @@ if($tmp->tipodato =='2'){?>
 <br>
 <div class="btn-group" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <?php if($tmp->Grabar!='2'){?>
  <button type="button" class="btn btn-warning btn-sm"><i class="fa fa-video-camera" aria-hidden="true"></i> <small>
  <?php echo  ExecuteScalar("SELECT `Live_Brief_Fechas`.`fecha` FROM `Live_Brief_Fechas` WHERE  `Live_Brief_Fechas`.`IdEvento` = '$tmp->Id' AND  `Live_Brief_Fechas`.`tipodato` = '5'");
@@ -432,7 +432,7 @@ if($tmp->tipodato =='4'){?>
 <br>
 <div class="btn-group" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <?php if($tmp->Grabar!='2'){?>
  <button type="button" class="btn btn-warning btn-sm"><i class="fa fa-video-camera" aria-hidden="true"></i> <small>
  <?php echo  ExecuteScalar("SELECT `Live_Brief_Fechas`.`fecha` FROM `Live_Brief_Fechas` WHERE  `Live_Brief_Fechas`.`IdEvento` = '$tmp->Id' AND  `Live_Brief_Fechas`.`tipodato` = '5'");
@@ -459,7 +459,7 @@ if($tmp->tipodato =='9'){?>
 <br>
 <div class="btn-group" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <?php if($tmp->Grabar!='2'){?>
  <button type="button" class="btn btn-warning btn-sm"><i class="fa fa-video-camera" aria-hidden="true"></i> <small>
  <?php echo  ExecuteScalar("SELECT `Live_Brief_Fechas`.`fecha` FROM `Live_Brief_Fechas` WHERE  `Live_Brief_Fechas`.`IdEvento` = '$tmp->Id' AND  `Live_Brief_Fechas`.`tipodato` = '5'");
@@ -486,7 +486,7 @@ if($tmp->tipodato =='3'&& $tmp->categoria=='21'){?>
 <br>
 <div class="btn-group" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <?php if($tmp->Grabar!='2'){?>
  <button type="button" class="btn btn-warning btn-sm"><i class="fa fa-video-camera" aria-hidden="true"></i> <small>
  <?php echo  ExecuteScalar("SELECT `Live_Brief_Fechas`.`fecha` FROM `Live_Brief_Fechas` WHERE  `Live_Brief_Fechas`.`IdEvento` = '$tmp->Id' AND  `Live_Brief_Fechas`.`tipodato` = '5'");
@@ -517,7 +517,7 @@ if($tmp->tipodato =='3' && $tmp->categoria=='18'){?>
 <br>
 <div class="btn-group" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/LiveBrief/Live_Briefview.php?showdetail=&Id=<?php echo $tmp->Id;?>"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <?php if($tmp->Grabar!='2'){?>
  <button type="button" class="btn btn-warning btn-sm"><i class="fa fa-video-camera" aria-hidden="true"></i> <small>
  <?php echo  ExecuteScalar("SELECT `Live_Brief_Fechas`.`fecha` FROM `Live_Brief_Fechas` WHERE  `Live_Brief_Fechas`.`IdEvento` = '$tmp->Id' AND  `Live_Brief_Fechas`.`tipodato` = '5'");

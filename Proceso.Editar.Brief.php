@@ -414,7 +414,7 @@ Execute("UPDATE `Live_Brief`
 
 // Redireccionar
  
- echo '<meta http-equiv="refresh" content="0; url=https://www.tcagye.com/2020/Proceso.Editar.Brief.php?PHPKEYID='.$falsekey.'&Id='.$_POST[IdEvento].'&tab=data&tipo='.$_POST[tipo].'">';
+ echo '<meta http-equiv="refresh" content="0; url=http://localhost/VINCULACION/Proceso.Editar.Brief.php?PHPKEYID='.$falsekey.'&Id='.$_POST[IdEvento].'&tab=data&tipo='.$_POST[tipo].'">';
 
 }
 
@@ -481,7 +481,7 @@ Execute("INSERT INTO  `Live_Brief_Fechas` (`IdEvento`,`fecha`,`hora`,`tipodato`,
 
 // Redireccionar
  
-echo '<meta http-equiv="refresh" content="0; url=https://www.tcagye.com/2020/Proceso.Editar.Brief.php?PHPKEYID='.$falsekey.'&Id='.$_POST[IdEvento].'&AddTipoDato='.$_POST[tipodato].'&tab=fecha&tipo='.$_POST[tipo].'">';
+echo '<meta http-equiv="refresh" content="0; url=http://localhost/VINCULACION/Proceso.Editar.Brief.php?PHPKEYID='.$falsekey.'&Id='.$_POST[IdEvento].'&AddTipoDato='.$_POST[tipodato].'&tab=fecha&tipo='.$_POST[tipo].'">';
 
 }
 
@@ -592,7 +592,7 @@ Execute("UPDATE `Live_Brief_Fechas`
    `Live_Brief_Fechas`.`Id` = '$_POST[IdFecha]'");
 // Redireccionar
  
-  echo '<meta http-equiv="refresh" content="0; url=https://www.tcagye.com/2020/Proceso.Editar.Brief.php?PHPKEYID='.$falsekey.'&Id='.$_POST[IdEvento].'&AddTipoDato='.$_POST[tipodato].'&tab=fecha&tipo='.$_POST[tipo].'">';
+  echo '<meta http-equiv="refresh" content="0; url=http://localhost/VINCULACION/Proceso.Editar.Brief.php?PHPKEYID='.$falsekey.'&Id='.$_POST[IdEvento].'&AddTipoDato='.$_POST[tipodato].'&tab=fecha&tipo='.$_POST[tipo].'">';
 
 }
 

@@ -94,7 +94,7 @@ Page_Rendering();
 
 </td>
 <td style="width:120px">
-<a href="https://www.tcagye.com/2020/Taquilla.php?evento=<?php echo $obj->Id; ?>" class="btn btn-primary"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+<a href="http://localhost/VINCULACION/Taquilla.php?evento=<?php echo $obj->Id; ?>" class="btn btn-primary"> <i class="fa fa-eye" aria-hidden="true"></i></a>
 </TD>
 
 			<td><?php echo $obj->titulo; ?></td>

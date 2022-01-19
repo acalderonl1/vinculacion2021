@@ -49,4 +49,4 @@
        $stmt->execute();
     }
 	
-	//echo '<meta http-equiv="refresh" content="1; url=https://www.tcagye.com/2020/Financiera.main.php?PHPKEYID=8eit1IJ8Ojbbye0hVfl2pH6HZfqzePU3l0t45QVseYb8VBY7iuoDrJzGXj1qHyPOsXoGAnRBOiUVXE5UJ1NYWeAkn9EOmJupdA80JoDAC8o5GAvMkQPQfwYHbIt1t0WJ&v=mes">';
+	//echo '<meta http-equiv="refresh" content="1; url=http://localhost/VINCULACION/Financiera.main.php?PHPKEYID=8eit1IJ8Ojbbye0hVfl2pH6HZfqzePU3l0t45QVseYb8VBY7iuoDrJzGXj1qHyPOsXoGAnRBOiUVXE5UJ1NYWeAkn9EOmJupdA80JoDAC8o5GAvMkQPQfwYHbIt1t0WJ&v=mes">';

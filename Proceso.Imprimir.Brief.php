@@ -214,7 +214,7 @@ foreach($c as $obj){?>
 
     </table>
 	
-    <a href="https://docs.google.com/viewer?url=https://www.tcagye.com/DataBrief/files/<?php echo $tmp->BriefDocx;?>" class="btn btn-primary btn-block"> VER BRIEF ENVIADO POR PRODUCTOR</a>
+    <a href="https://docs.google.com/viewer?url=http://localhost/DataBrief/files/<?php echo $tmp->BriefDocx;?>" class="btn btn-primary btn-block"> VER BRIEF ENVIADO POR PRODUCTOR</a>
 
 
 <?php if($tmp->descripcion!=''){?>	

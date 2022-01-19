@@ -361,8 +361,8 @@ GRABACION
 <a class="btn btn-dark btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 
 <?php /*if($UserData[calendario]=='1'){?>
-<a class="btn btn-dark btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-dark btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-dark btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-dark btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } */?>
 </div>
  </div>
@@ -391,8 +391,8 @@ if($tmp->tipodato =='7'){?>
 <a class="btn btn-dark btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 
 <?php /*if($UserData[calendario]=='1'){?>
-<a class="btn btn-dark btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-dark btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-dark btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-dark btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } */?>
 </div>
 </div>
@@ -422,8 +422,8 @@ if($tmp->tipodato =='6'){?>
 <div class="btn-group d-print-none" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-dark btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 <?php /*if($UserData[calendario]=='1'){?>
-<a class="btn btn-dark btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-dark btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-dark btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-dark btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } */?>
 </div>
  </div>
@@ -449,8 +449,8 @@ if($tmp->tipodato =='3'&& $tmp->categoria!='21'){?>
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 
 <?php if($UserData['auth']=='PROPIO'){?>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
 </div>
  </div>
@@ -488,8 +488,8 @@ if($tmp->tipodato =='1'){?>
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 
 <?php if($UserData[calendario]=='1'){?>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
 
 <?php if($tmp->Grabar!='2'){?>
@@ -527,8 +527,8 @@ if($tmp->tipodato =='2'){?>
 
 <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#Estaditicas<?php echo $tmp->IdEvento;?>"><i class="fa fa-bar-chart" aria-hidden="true"></i></button>
 <?php if($UserData[calendario]=='1'){?>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 
 <?php } ?>
 
@@ -607,12 +607,12 @@ if($tmp->tipo !='4' && $Activo ==1){?>
 
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#Estaditicas<?php echo $tmp->IdEvento;?>"><i class="fa fa-bar-chart" aria-hidden="true"></i></button>
 <?php if($UserData['auth']=='PROPIO'){?>
-<a class="btn btn-primary btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-primary btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-primary btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-primary btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
 <?php if($UserData['auth']=='TODOS'){?>
-<a class="btn btn-primary btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-primary btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-primary btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-primary btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
 
 <?php /*if($tmp->Grabar!='2'){?>
@@ -687,13 +687,13 @@ if($tmp->tipodato =='99'){?>
 <a class="btn btn-danger btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 
 <?php  if($UserData['auth']=='TODOS'){?>
-<a class="btn btn-danger btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-danger btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-danger btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-danger btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
 
 <?php if($UserData['auth']=='RESERVA'){?>
-<a class="btn btn-danger btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data&tipo=reserva"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-danger btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha&tipo=reserva"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-danger btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data&tipo=reserva"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-danger btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha&tipo=reserva"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
 <?php /*if($tmp->Grabar!='2' ){?>
  <button type="button" class="btn btn-warning btn-sm"><i class="fa fa-video-camera" aria-hidden="true"></i> <small>
@@ -728,13 +728,13 @@ if($tmp->tipodato =='4'){?>
 <a class="btn btn-warning btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 
 <?php if($UserData['auth']=='ALQUILER'){?>
-<a class="btn btn-warning btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-warning btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-warning btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-warning btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
 
 <?php if($UserData['auth']=='TODOS'){?>
-<a class="btn btn-warning btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-warning btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-warning btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-warning btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
 
 <?php /*if($tmp->Grabar!='2' ){?>
@@ -770,8 +770,8 @@ if($tmp->tipodato =='9'){?>
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#Estaditicas<?php echo $tmp->IdEvento;?>"><i class="fa fa-bar-chart" aria-hidden="true"></i></button>
 <?php if($UserData[calendario]=='1'){?>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
 
 <?php if($tmp->Grabar!='2'){?>
@@ -835,7 +835,7 @@ if($tmp->tipodato =='8' && $tmp->categoria=='18'){?>
 <br>
 <div class="btn-group d-print-none" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <?php if($tmp->Grabar!='2'){?>
  <button type="button" class="btn btn-warning btn-sm"><i class="fa fa-video-camera" aria-hidden="true"></i> <small>
  <?php echo  ExecuteScalar("SELECT `Live_Brief_Fechas`.`fecha` FROM `Live_Brief_Fechas` WHERE  `Live_Brief_Fechas`.`IdEvento` = '$tmp->Id' AND  `Live_Brief_Fechas`.`tipodato` = '5'");
@@ -867,7 +867,7 @@ if($tmp->tipodato =='11'){?>
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#Estaditicas<?php echo $tmp->IdEvento;?>"><i class="fa fa-bar-chart" aria-hidden="true"></i></button>
 <?php if($UserData[calendario]=='1'){?>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#fecha<?php echo $tmp->FechaId;?>"><i class="fa fa-trash" aria-hidden="true"></i></button>
 <?php } ?>
 
@@ -939,8 +939,8 @@ if($tmp->tipodato =='3'&& $tmp->categoria=='21'){?>
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 
 <?php if($UserData['calendario']=='1'){?>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-<a class="btn btn-default btn-sm"href="https://www.tcagye.com/2020/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+<a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
 
 <?php if($tmp->Grabar!='2'){?>

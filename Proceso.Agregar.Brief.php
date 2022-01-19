@@ -377,7 +377,7 @@ Comprobando detalles
 </div>
 
 
-<meta http-equiv="refresh" content="1; url=https://www.tcagye.com/2020/main.php?m=<?php echo $fecha[1];?>&y=<?php echo $fecha[0];?>">
+<meta http-equiv="refresh" content="1; url=http://localhost/VINCULACION/main.php?m=<?php echo $fecha[1];?>&y=<?php echo $fecha[0];?>">
 
 
 
@@ -473,10 +473,10 @@ if($_GET[paso]=='3GLOBAL'){?>
 </div>
 <table class="table table-bordered">
 <tr><td>
-<a href="https://www.tcagye.com/2020/main.php" class="btn btn-default"><i class="fa fa-calendar" aria-hidden="true" style="font-size: 60px;"></i><br>Regresar a la Agenda</a>
+<a href="http://localhost/VINCULACION/main.php" class="btn btn-default"><i class="fa fa-calendar" aria-hidden="true" style="font-size: 60px;"></i><br>Regresar a la Agenda</a>
 </td>
 <td>
-<a href="https://www.tcagye.com/2020/Proceso.Imprimir.Brief.php?Id=<?php echo $_GET[Id];?>" target="_blank" class="btn btn-default"><i style="font-size: 60px;" class="fa fa-print" aria-hidden="true"></i><br>Imprimir / Ver Brief</a>
+<a href="http://localhost/VINCULACION/Proceso.Imprimir.Brief.php?Id=<?php echo $_GET[Id];?>" target="_blank" class="btn btn-default"><i style="font-size: 60px;" class="fa fa-print" aria-hidden="true"></i><br>Imprimir / Ver Brief</a>
 </td>
 </tr></table>
 
@@ -505,7 +505,7 @@ if($_POST[paso]=='1G-GLOBAL'){
 
  // Redireccionar
  
-   echo '<meta http-equiv="refresh" content="0; url=https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo='.$_POST[tipo].'&retorno='.$_POST[retorno].'&paso=2GLOBAL&cod='.$_POST[cod].'">';
+   echo '<meta http-equiv="refresh" content="0; url=http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo='.$_POST[tipo].'&retorno='.$_POST[retorno].'&paso=2GLOBAL&cod='.$_POST[cod].'">';
 
 } 
 
@@ -538,7 +538,7 @@ Execute("UPDATE `Live_Brief`
   WHERE `cod`='$_POST[cod]'");
 // Redireccionar
  
-   echo '<meta http-equiv="refresh" content="0; url=https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo='.$_POST[retorna].'&paso=3GLOBAL&cod='.$_POST[cod].'&Id='.$_POST[Id].'">';
+   echo '<meta http-equiv="refresh" content="0; url=http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo='.$_POST[retorna].'&paso=3GLOBAL&cod='.$_POST[cod].'&Id='.$_POST[Id].'">';
 
 }
 

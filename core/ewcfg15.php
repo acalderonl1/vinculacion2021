@@ -95,7 +95,8 @@ if (!isset($GLOBALS["ADODB_OUTP"]))
 	$GLOBALS["ADODB_OUTP"] = PROJECT_NAMESPACE . 'SetDebugMessage';
 
 // Database connection info
-$CONNECTIONS["DB"] = array("conn" => NULL, "id" => "DB", "type" => "MYSQL", "host" => "tca.ec", "port" => 3306, "user" => "teatro13_tcagye", "pass" => "PKVJ6Ql0E0QiCMoM", "db" => "teatro13_tcageneral", "qs" => "`", "qe" => "`");
+// $CONNECTIONS["DB"] = array("conn" => NULL, "id" => "DB", "type" => "MYSQL", "host" => "tca.ec", "port" => 3306, "user" => "teatro13_tcagye", "pass" => "PKVJ6Ql0E0QiCMoM", "db" => "teatro13_tcageneral", "qs" => "`", "qe" => "`");
+$CONNECTIONS["DB"] = array("conn" => NULL, "id" => "DB", "type" => "MYSQL", "host" => "localhost", "port" => 3306, "user" => "root", "pass" => "", "db" => "teatro13_tcageneral", "qs" => "`", "qe" => "`");
 $CONNECTIONS[0] = &$CONNECTIONS["DB"];
 
 // Database error function

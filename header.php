@@ -21,10 +21,10 @@ $falsekey = random_str(128);
 <head>
 	<title>BMP 2020 - Teatro Centro de Arte</title>
 	<meta charset="utf-8">
-	<link rel="shortcut icon" href="https://www.tcagye.com/2020/core/Favico.png">
-	<link rel="apple-touch-icon-precomposed" href="https://www.tcagye.com/2020/core/Favico.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.tcagye.com/2020/core/Favico.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.tcagye.com/2020/core/Favico.png">
+	<link rel="shortcut icon" href="http://localhost/VINCULACION/core/Favico.png">
+	<link rel="apple-touch-icon-precomposed" href="http://localhost/VINCULACION/core/Favico.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost/VINCULACION/core/Favico.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost/VINCULACION/core/Favico.png">
 	<link rel="stylesheet" type="text/css" href="core/adminlte3/css/adminlte.css">
 	<link rel="stylesheet" type="text/css" href="core/plugins/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="core/phpcss/jquery.fileupload.css">
@@ -48,8 +48,8 @@ $falsekey = random_str(128);
 	<script src="core/phpjs/jsrender.min.js"></script>
 	<script src="core/phpjs/ewp15.js"></script>
 	<!-- include summernote css/js -->
-	<link href="https://www.tcagye.com/2020/summernote/summernote.min.css" rel="stylesheet">
-	<script src="https://www.tcagye.com/2020/summernote/summernote.min.js"></script>
+	<link href="http://localhost/VINCULACION/summernote/summernote.min.css" rel="stylesheet">
+	<script src="http://localhost/VINCULACION/summernote/summernote.min.js"></script>
 
 	<script>
 		$(document).ready(function() {
@@ -94,7 +94,7 @@ $falsekey = random_str(128);
 			LOOKUP_FILTER_VALUE_SEPARATOR: ",", // Lookup filter value separator
 			AUTO_SUGGEST_MAX_ENTRIES: 10, // Auto-Suggest max entries
 			DISABLE_BUTTON_ON_SUBMIT: true,
-			IMAGE_FOLDER: "https://www.tcagye.com/2020/core/phpimages/", // Image folder
+			IMAGE_FOLDER: "http://localhost/VINCULACION/core/phpimages/", // Image folder
 			SESSION_ID: "v8ioEPCUMlGzs1dsC9DbKUuxWZ0FnsLWbTZ9OkCOCm0ltMFh", // Session ID
 			UPLOAD_URL: "api/index.php", // Upload URL
 			UPLOAD_TYPE: "POST", // Upload type
@@ -104,7 +104,7 @@ $falsekey = random_str(128);
 			IMPORT_FILE_ALLOWED_EXT: "csv,xls,xlsx", // Import file allowed extensions
 			USE_COLORBOX: true,
 			USE_JAVASCRIPT_MESSAGE: false,
-			PROJECT_STYLESHEET_FILENAME: "https://www.tcagye.com/2020/core/phpcss/LiveBrief.css", // Project style sheet
+			PROJECT_STYLESHEET_FILENAME: "http://localhost/VINCULACION/core/phpcss/LiveBrief.css", // Project style sheet
 			PDF_STYLESHEET_FILENAME: "", // PDF style sheet
 			ANTIFORGERY_TOKEN: "TygNIMSUm8JQs9m65dT3WQ..",
 			CSS_FLIP: false,
@@ -271,12 +271,12 @@ $falsekey = random_str(128);
 			}
 		};
 	</script>
-	<script src="https://www.tcagye.com/2020/core/ckeditor/ckeditor.js"></script>
-	<script src="https://www.tcagye.com/2020/core/phpjs/eweditor.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://www.tcagye.com/2020/core/phpcss/bootstrap-datetimepicker.css">
-	<script src="https://www.tcagye.com/2020/core/phpjs/bootstrap-datetimepicker.js"></script>
-	<script src="https://www.tcagye.com/2020/core/phpjs/ewdatetimepicker.js"></script>
-	<script src="https://www.tcagye.com/2020/core/phpjs/userfn15.js"></script>
+	<script src="http://localhost/VINCULACION/core/ckeditor/ckeditor.js"></script>
+	<script src="http://localhost/VINCULACION/core/phpjs/eweditor.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://localhost/VINCULACION/core/phpcss/bootstrap-datetimepicker.css">
+	<script src="http://localhost/VINCULACION/core/phpjs/bootstrap-datetimepicker.js"></script>
+	<script src="http://localhost/VINCULACION/core/phpjs/ewdatetimepicker.js"></script>
+	<script src="http://localhost/VINCULACION/core/phpjs/userfn15.js"></script>
 	<script>
 		// Write your client script here, no need to add script tags.
 	</script>
@@ -315,19 +315,19 @@ $falsekey = random_str(128);
 									</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Reporte.OnDemand.php?PHPKEYID=<?php echo $falsekey; ?>">Reportes Eventos OnDemand</a>
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Reporte.Post.php?PHPKEYID=<?php echo $falsekey; ?>">Reportes Post en redes sociales</a>
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Reporte.LiveStream.php?PHPKEYID=<?php echo $falsekey; ?>">Reportes LiveStreaming</a>
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Escuela.Reporte.php?PHPKEYID=<?php echo $falsekey; ?>">Reportes Escuelas</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Reporte.OnDemand.php?PHPKEYID=<?php echo $falsekey; ?>">Reportes Eventos OnDemand</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Reporte.Post.php?PHPKEYID=<?php echo $falsekey; ?>">Reportes Post en redes sociales</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Reporte.LiveStream.php?PHPKEYID=<?php echo $falsekey; ?>">Reportes LiveStreaming</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Escuela.Reporte.php?PHPKEYID=<?php echo $falsekey; ?>">Reportes Escuelas</a>
 									</div>
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link" href="https://www.tcagye.com/2020/main.php?v=mes">Agenda eventos</a>
+									<a class="nav-link" href="http://localhost/VINCULACION/main.php?v=mes">Agenda eventos</a>
 
 								</li>
 								<li class="nav-item danger" style="    background: #f9afb6;">
-									<a class="nav-link" href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=99&retorno=Pre-reserva&paso=1GLOBAL&categoria=32">PRE-RESERVA</a>
+									<a class="nav-link" href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=99&retorno=Pre-reserva&paso=1GLOBAL&categoria=32">PRE-RESERVA</a>
 
 								</li>
 								<?php if ($UserData['calendario'] == '1') { ?>
@@ -338,26 +338,26 @@ $falsekey = random_str(128);
 										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
 											<?php if ($UserData['auth'] == 'TODOS') { ?>
-												<a class="dropdown-item" href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=1&paso=1GLOBAL">Co-Producción y/o Propio</a>
+												<a class="dropdown-item" href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=1&paso=1GLOBAL">Co-Producción y/o Propio</a>
 
 
-												<a class="dropdown-item" href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=22">Alquiler</a>
+												<a class="dropdown-item" href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=22">Alquiler</a>
 
 
 											<?PHP } ?>
 
 											<?php if ($UserData['auth'] == 'PROPIO') { ?>
-												<a class="dropdown-item" href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=1&paso=1GLOBAL">Co-Producción y/o Propio</a>
+												<a class="dropdown-item" href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=1&paso=1GLOBAL">Co-Producción y/o Propio</a>
 											<?PHP } ?>
 											<?php if ($UserData['auth'] == 'ALQUILER') { ?>
 
-												<a class="dropdown-item" href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=22">AAlquiler</a>
+												<a class="dropdown-item" href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=22">AAlquiler</a>
 												<!--
-	<a class="dropdown-item"    href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=19">Agregar Alquiler Digital</a> 
-	<a class="dropdown-item"    href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=27">Agregar Alquiler Arena-TCA</a>-->
+	<a class="dropdown-item"    href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=19">Agregar Alquiler Digital</a> 
+	<a class="dropdown-item"    href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=27">Agregar Alquiler Arena-TCA</a>-->
 
 											<?PHP } ?>
-											<!--<a class="dropdown-item"   href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=3&retorno=Otro-Tipo&paso=1GLOBAL&categoria=25">Otro Tipo</a>-->
+											<!--<a class="dropdown-item"   href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=3&retorno=Otro-Tipo&paso=1GLOBAL&categoria=25">Otro Tipo</a>-->
 
 											<!-- <a class="dropdown-item" href="Proceso.LlavesAcceso.php?PHPKEYID=<?php echo $falsekey; ?>">Llaves Donaciones</a>-->
 
@@ -375,19 +375,19 @@ $falsekey = random_str(128);
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
      <h6 class="dropdown-header">Eventos Teatro Propios y Coproducción</h6>
 	 <hr>
-	 <a class="dropdown-item"  href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=1&retorno=On-Demand-BdP&paso=1GLOBAL">Agregar OnDemand BdP</a>
+	 <a class="dropdown-item"  href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=1&retorno=On-Demand-BdP&paso=1GLOBAL">Agregar OnDemand BdP</a>
      <h6 class="dropdown-header">Eventos Live BdP 2020</h6>
 	 <hr>
 	
    
-   <a class="dropdown-item"  href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=1&retorno=On-Demand-BdP&paso=1GLOBAL">Agregar OnDemand BdP</a>
-<a class="dropdown-item"   href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=2&retorno=Live-Streaming-BdP&paso=1GLOBAL">Agregar LiveStreaming BdP</a>
+   <a class="dropdown-item"  href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=1&retorno=On-Demand-BdP&paso=1GLOBAL">Agregar OnDemand BdP</a>
+<a class="dropdown-item"   href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=2&retorno=Live-Streaming-BdP&paso=1GLOBAL">Agregar LiveStreaming BdP</a>
 <h6 class="dropdown-header">Eventos TCA</h6>
- <a class="dropdown-item"   href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=8&retorno=Live-Streaming-TCA&paso=1GLOBAL&categoria=18">Agregar LiveStreaming TCA</a>
-<a class="dropdown-item"   href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=9&retorno=Presencial-TCA&paso=1GLOBAL&categoria=26">Agregar Presencial TCA</a>
-<a class="dropdown-item"   href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=11&retorno=Arena-TCA&paso=1GLOBAL&categoria=28">Agregar Arena TCA</a>
+ <a class="dropdown-item"   href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=8&retorno=Live-Streaming-TCA&paso=1GLOBAL&categoria=18">Agregar LiveStreaming TCA</a>
+<a class="dropdown-item"   href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=9&retorno=Presencial-TCA&paso=1GLOBAL&categoria=26">Agregar Presencial TCA</a>
+<a class="dropdown-item"   href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=11&retorno=Arena-TCA&paso=1GLOBAL&categoria=28">Agregar Arena TCA</a>
 
-<a class="dropdown-item"   href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=3&retorno=Otro-Tipo&paso=1GLOBAL&categoria=25">Otro Tipo</a>
+<a class="dropdown-item"   href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=3&retorno=Otro-Tipo&paso=1GLOBAL&categoria=25">Otro Tipo</a>
  
   <a class="dropdown-item" href="Proceso.LlavesAcceso.php?PHPKEYID=<?php echo $falsekey; ?>">Llaves Donaciones</a>
 
@@ -401,9 +401,9 @@ $falsekey = random_str(128);
           Alquileres
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-<a class="dropdown-item"    href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=19">Agregar Alquiler Digital</a>
-<a class="dropdown-item"    href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=22">Agregar Alquiler Tradicional</a>
-<a class="dropdown-item"    href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=27">Agregar Alquiler Arena-TCA</a>
+<a class="dropdown-item"    href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=19">Agregar Alquiler Digital</a>
+<a class="dropdown-item"    href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=22">Agregar Alquiler Tradicional</a>
+<a class="dropdown-item"    href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=4&retorno=Alquiler&paso=1GLOBAL&categoria=27">Agregar Alquiler Arena-TCA</a>
 
         </div>
       </li>-->
@@ -411,7 +411,7 @@ $falsekey = random_str(128);
 
 
 								<li class="nav-item">
-									<a class="nav-link" href="https://www.tcagye.com/2020/Proceso.Medios.php?PHPKEYID=<?php echo $falsekey; ?>">Directorio de medios</a>
+									<a class="nav-link" href="http://localhost/VINCULACION/Proceso.Medios.php?PHPKEYID=<?php echo $falsekey; ?>">Directorio de medios</a>
 
 								</li>
 
@@ -423,10 +423,10 @@ $falsekey = random_str(128);
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
 
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Reporte.Paymentez.php?v=2">Informe Donaciones</a>
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Reporte.Paymentez.php?v=3">Informes Escuelas de Arte</a>
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Orden.Pago.php?paso=2">Ordenes de cobro</a>
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Proceso.DocumentosEmitidos.php?v=3">Facturas, Retenciones emitidas</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Reporte.Paymentez.php?v=2">Informe Donaciones</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Reporte.Paymentez.php?v=3">Informes Escuelas de Arte</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Orden.Pago.php?paso=2">Ordenes de cobro</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Proceso.DocumentosEmitidos.php?v=3">Facturas, Retenciones emitidas</a>
 
 									</div>
 								</li>
@@ -436,27 +436,27 @@ $falsekey = random_str(128);
 										Escuelas de Arte
 									</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<?php if ($UserData['calendario'] == '1') { ?> <a class="dropdown-item" href="https://www.tcagye.com/2020/Proceso.Agregar.Brief.php?tipo=3&retorno=EscuelasDeArte&paso=1GLOBAL&categoria=21">Agregar Curso o Taller a la agenda</a><?php } ?>
+										<?php if ($UserData['calendario'] == '1') { ?> <a class="dropdown-item" href="http://localhost/VINCULACION/Proceso.Agregar.Brief.php?tipo=3&retorno=EscuelasDeArte&paso=1GLOBAL&categoria=21">Agregar Curso o Taller a la agenda</a><?php } ?>
 										<h6 class="dropdown-header">Reportes</h6>
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Escuela.Reporte.Pagos.php?v=3">Ingresos</a>
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Escuela.Reporte.php?PHPKEYID=<?php echo $falsekey; ?>">Beneficiados BdP</a>
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Escuela.Reporte.Alumnos.php?PHPKEYID=<?php echo $falsekey; ?>">Ficha Alumno Escuelas de Arte</a>
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Escuela.Reporte.Asistencia.php?PHPKEYID=<?php echo $falsekey; ?>">Asistencia Escuelas de Arte</a>
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Semilleros.Reporte.Asistencia.php?PHPKEYID=<?php echo $falsekey; ?>">Asistencia Semilleros</a>
-										<a class="dropdown-item" href="https://www.tcagye.com/2020/Semilleros.Reporte.Alumnos.php?PHPKEYID=<?php echo $falsekey; ?>">Ficha Alumno Semilleros</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Escuela.Reporte.Pagos.php?v=3">Ingresos</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Escuela.Reporte.php?PHPKEYID=<?php echo $falsekey; ?>">Beneficiados BdP</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Escuela.Reporte.Alumnos.php?PHPKEYID=<?php echo $falsekey; ?>">Ficha Alumno Escuelas de Arte</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Escuela.Reporte.Asistencia.php?PHPKEYID=<?php echo $falsekey; ?>">Asistencia Escuelas de Arte</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Semilleros.Reporte.Asistencia.php?PHPKEYID=<?php echo $falsekey; ?>">Asistencia Semilleros</a>
+										<a class="dropdown-item" href="http://localhost/VINCULACION/Semilleros.Reporte.Alumnos.php?PHPKEYID=<?php echo $falsekey; ?>">Ficha Alumno Semilleros</a>
 									</div>
 								</li>
 								<li class="nav-item">
-									<!--<a class="nav-link" href="https://www.tcagye.com/2020/Financiera.main.php?v=mes">Financiera</a>-->
-									<a class="nav-link" href="https://www.tcagye.com/2020/Taquilla.php">Taquilla</a>
+									<!--<a class="nav-link" href="http://localhost/VINCULACION/Financiera.main.php?v=mes">Financiera</a>-->
+									<a class="nav-link" href="http://localhost/VINCULACION/Taquilla.php">Taquilla</a>
 
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="https://www.tcagye.com/2020/PinacotecaVirtual.php?PHPKEYID=<?php echo $falsekey; ?>">Pinacoteca</a>
+									<a class="nav-link" href="http://localhost/VINCULACION/PinacotecaVirtual.php?PHPKEYID=<?php echo $falsekey; ?>">Pinacoteca</a>
 
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="https://www.tcagye.com/2020/core/logout.php">Salir</a>
+									<a class="nav-link" href="http://localhost/VINCULACION/core/logout.php">Salir</a>
 
 								</li>
 
