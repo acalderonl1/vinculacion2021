@@ -37,7 +37,7 @@ Page_Rendering();
 <?php include "header.php" ?>
 
 <?php 
-if($_GET['IdEvento']!=''){
+if($_GET[IdEvento]!=''){
 Execute("UPDATE `Live_Brief` SET   `Live_Brief`.`estadisticas` = '$_GET[cantidad]', `Live_Brief`.`estadisticas2` = '$_GET[cantidad2]' WHERE  `Live_Brief`.`Id` ='$_GET[IdEvento]'");
 echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
  Estadisticas actualizadas correctamente
@@ -111,19 +111,19 @@ foreach($c as $tmp){ }
 			PARAMETROS DE INICIALIZAR EL CALENDARIO
 /***************************************************/
 
-if($_GET['m']==''){$m= date('m');}else{$m=$_GET['m'];}
-if($_GET['y']==''){$y= date('Y');}else{$y=$_GET['y'];}
-if($_GET['LblCategoria']==''){$LblCategoria = 'Todas';}else{$LblCategoria=$_GET['LblCategoria'];}
+if($_GET[m]==''){$m= date(m);}else{$m=$_GET[m];}
+if($_GET[y]==''){$y= date(Y);}else{$y=$_GET[y];}
+if($_GET[LblCategoria]==''){$LblCategoria = 'Todas';}else{$LblCategoria=$_GET[LblCategoria];}
 
-if($_GET['live']==''){$live = 'on';}else{$live=$_GET['live'];}
-if($_GET['rec']==''){$rec = 'on';}else{$rec=$_GET['rec'];}
-if($_GET['ytube']==''){$ytube = 'on';}else{$ytube=$_GET['ytube'];}
-if($_GET['escuelas']==''){$escuelas = 'on';}else{$escuelas=$_GET['escuelas'];}
-if($_GET['v']==''){$vista = 'mes';}else{$vista=$_GET['v'];}
-if($_GET['alquiler']==''){$alquiler = 'on';}else{$alquiler=$_GET['alquiler'];}
-if($_GET['calAnterior']==''){$calAnterior = 'on';}else{$calAnterior=$_GET['calAnterior'];}
-if($_GET['Arena']==''){$Arena = 'on';}else{$Arena=$_GET['Arena'];}
-if($_GET['PresencialTCA']==''){$PresencialTCA = 'on';}else{$PresencialTCA=$_GET['PresencialTCA'];}
+if($_GET[live]==''){$live = 'on';}else{$live=$_GET[live];}
+if($_GET[rec]==''){$rec = 'on';}else{$rec=$_GET[rec];}
+if($_GET[ytube]==''){$ytube = 'on';}else{$ytube=$_GET[ytube];}
+if($_GET[escuelas]==''){$escuelas = 'on';}else{$escuelas=$_GET[escuelas];}
+if($_GET[v]==''){$vista = 'mes';}else{$vista=$_GET[v];}
+if($_GET[alquiler]==''){$alquiler = 'on';}else{$alquiler=$_GET[alquiler];}
+if($_GET[calAnterior]==''){$calAnterior = 'on';}else{$calAnterior=$_GET[calAnterior];}
+if($_GET[Arena]==''){$Arena = 'on';}else{$Arena=$_GET[Arena];}
+if($_GET[PresencialTCA]==''){$PresencialTCA = 'on';}else{$PresencialTCA=$_GET[PresencialTCA];}
 
 //$ad=date("j");
  
@@ -148,7 +148,7 @@ Copiar URL
 <table class="table d-print-none"><tr>
 <td>
 
- <a  class="btn btn-default" href="main.php?m=<?php echo date('m'); ?>&y=<?php echo date('Y');?>"><span><i class="fa fa-calendar-o"></i></span></a>
+ <a  class="btn btn-default" href="main.php?m=<?php echo date(m); ?>&y=<?php echo date(Y);?>"><span><i class="fa fa-calendar-o"></i></span></a>
  <a href="main.php?&m='.$m.'&y='.$y.'&v=agenda&live='.$live.'&rec='.$rec.'&ytube='.$ytube.'&escuelas='.$escuelas.'&alquiler='.$alquiler.'&calAnterior='.$calAnterior.'&Arena='.$Arena.'&PresencialTCA='.$PresencialTCA.'&LblCategoria='.$LblCategoria; ?>" class="btn btn-default"> <i class="fa fa-bars" aria-hidden="true"></i></a>
 <a href="main.php?&m='.$m.'&y='.$y.'&v=mes&live='.$live.'&rec='.$rec.'&ytube='.$ytube.'&escuelas='.$escuelas.'&alquiler='.$alquiler.'&calAnterior='.$calAnterior.'&Arena='.$Arena.'&PresencialTCA='.$PresencialTCA.'&LblCategoria='.$LblCategoria; ?>" class="btn btn-default"><i class="fa fa-calendar" aria-hidden="true"></i></a>
  <a  class="btn btn-default" href="main.php?m=<?php if ($m>1){echo $m-1; } else {echo 12;}?>&y=<?php if ($m==01){echo $y-1; } else {echo $y;}?>"><span><i class="fa fa-arrow-up"></i></span></a>
@@ -448,7 +448,7 @@ if($tmp->tipodato =='3'&& $tmp->categoria!='21'){?>
 <div class="btn-group d-print-none" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 
-<?php if($UserData['auth']=='PROPIO'){?>
+<?php if($UserData[auth]=='PROPIO'){?>
 <a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
@@ -606,11 +606,11 @@ if($tmp->tipo !='4' && $Activo ==1){?>
 <a class="btn btn-primary btn-sm" href="../DataBrief/Live_Briefedit.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(300,200);?>><i class="fa fa-upload" aria-hidden="true"></i></a>
 
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#Estaditicas<?php echo $tmp->IdEvento;?>"><i class="fa fa-bar-chart" aria-hidden="true"></i></button>
-<?php if($UserData['auth']=='PROPIO'){?>
+<?php if($UserData[auth]=='PROPIO'){?>
 <a class="btn btn-primary btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <a class="btn btn-primary btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
-<?php if($UserData['auth']=='TODOS'){?>
+<?php if($UserData[auth]=='TODOS'){?>
 <a class="btn btn-primary btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <a class="btn btn-primary btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
@@ -637,8 +637,8 @@ if($tmp->tipo !='4' && $Activo ==1){?>
 	  <form name="id="Estaditicas<?php echo $tmp->IdEvento;?>">
 	  <input type="hidden" name="PHPKEYID" value="<?php echo $falsekey;?>">
 	  <input type="hidden" name="IdEvento" value="<?php echo $tmp->IdEvento;?>">
-	  <input type="hidden" name="m" value="<?php echo $_GET['m'];?>">
-	  <input type="hidden" name="y" value="<?php echo $_GET['y'];?>">
+	  <input type="hidden" name="m" value="<?php echo $_GET[m];?>">
+	  <input type="hidden" name="y" value="<?php echo $_GET[y];?>">
   <div class="form-group">
 Asistencia Virtual   
    <input type="number" class="form-control" name="cantidad" value="<?php echo $tmp->estadisticas;?>">
@@ -686,7 +686,7 @@ if($tmp->tipodato =='99'){?>
 <div class="btn-group d-print-none" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-danger btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 
-<?php  if($UserData['auth']=='TODOS'){?>
+<?php  if($UserData[auth]=='TODOS'){?>
 <a class="btn btn-danger btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <a class="btn btn-danger btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
@@ -727,12 +727,12 @@ if($tmp->tipodato =='4'){?>
 <div class="btn-group d-print-none" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-warning btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 
-<?php if($UserData['auth']=='ALQUILER'){?>
+<?php if($UserData[auth]=='ALQUILER'){?>
 <a class="btn btn-warning btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <a class="btn btn-warning btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
 
-<?php if($UserData['auth']=='TODOS'){?>
+<?php if($UserData[auth]=='TODOS'){?>
 <a class="btn btn-warning btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <a class="btn btn-warning btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
@@ -938,7 +938,7 @@ if($tmp->tipodato =='3'&& $tmp->categoria=='21'){?>
 <div class="btn-group d-print-none" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-default btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 
-<?php if($UserData['calendario']=='1'){?>
+<?php if($UserData[calendario]=='1'){?>
 <a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=data"  ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
 <a class="btn btn-default btn-sm"href="http://localhost/VINCULACION/Proceso.Editar.Brief.php?Id=<?php echo $tmp->Id;?>&tab=fecha"  ><i class="fa fa-trash" aria-hidden="true"></i></a>
 <?php } ?>
@@ -1305,7 +1305,7 @@ $day++;
 
 
 </td></tr></table>
-<!-- %%Custom page content begin%% --><!-- %%Custom page content end%% --><?php if ('DEBUG_ENABLED') echo GetDebugMessage(); ?>
+<!-- %%Custom page content begin%% --><!-- %%Custom page content end%% --><?php if (DEBUG_ENABLED) echo GetDebugMessage(); ?>
 <?php include_once "footer.php" ?>
 <?php
 $main->terminate();

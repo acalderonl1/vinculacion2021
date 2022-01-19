@@ -200,7 +200,7 @@ Page_Rendering();
 </body>
 </html>
 </td></tR></table>
-<!-- %%Custom page content begin%% --><!-- %%Custom page content end%% --><?php if ('DEBUG_ENABLED') echo GetDebugMessage(); ?>
+<!-- %%Custom page content begin%% --><!-- %%Custom page content end%% --><?php if (DEBUG_ENABLED) echo GetDebugMessage(); ?>
 <?php include_once "footer.php" ?>
 <?php
 $main->terminate();
