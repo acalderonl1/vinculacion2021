@@ -69,7 +69,7 @@ if($_GET[y]==''){$y= date(Y);}else{$y=$_GET[y];}
     <input type="number" class="form-control" name="y" value="<?php echo $y;?>" style="width:80px;">
   </div>
   <button type="submit" class="btn btn-primary mb-2">Generar</button>
-  <a href="http://localhost/VINCULACION/Proceso.Agregar.Post.php" class="btn btn-default mb-2" >Agregar</a>
+  <a href="http://localhost/2020/Proceso.Agregar.Post.php" class="btn btn-default mb-2" >Agregar</a>
 
 </form></td>
 

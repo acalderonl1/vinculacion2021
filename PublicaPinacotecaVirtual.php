@@ -10,10 +10,10 @@ $ROOT_RELATIVE_PATH = "./core/";
 <head>
 <title>BMP 2020 - Teatro Centro de Arte</title>
 <meta charset="utf-8">
-<link rel="shortcut icon" href="http://localhost/VINCULACION/core/Favico.png">
-<link rel="apple-touch-icon-precomposed" href="http://localhost/VINCULACION/core/Favico.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost/VINCULACION/core/Favico.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost/VINCULACION/core/Favico.png">
+<link rel="shortcut icon" href="http://localhost/2020/core/Favico.png">
+<link rel="apple-touch-icon-precomposed" href="http://localhost/2020/core/Favico.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost/2020/core/Favico.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost/2020/core/Favico.png">
 <link rel="stylesheet" type="text/css" href="core/adminlte3/css/adminlte.css">
 <link rel="stylesheet" type="text/css" href="core/plugins/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="core/phpcss/jquery.fileupload.css">
@@ -22,12 +22,12 @@ $ROOT_RELATIVE_PATH = "./core/";
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="core/phpcss/LiveBrief.css">
 
-<script src="http://localhost/VINCULACION/core/ckeditor/ckeditor.js"></script>
-<script src="http://localhost/VINCULACION/core/phpjs/eweditor.js"></script>
-<link rel="stylesheet" type="text/css" href="http://localhost/VINCULACION/core/phpcss/bootstrap-datetimepicker.css">
-<script src="http://localhost/VINCULACION/core/phpjs/bootstrap-datetimepicker.js"></script>
-<script src="http://localhost/VINCULACION/core/phpjs/ewdatetimepicker.js"></script>
-<script src="http://localhost/VINCULACION/core/phpjs/userfn15.js"></script>
+<script src="http://localhost/2020/core/ckeditor/ckeditor.js"></script>
+<script src="http://localhost/2020/core/phpjs/eweditor.js"></script>
+<link rel="stylesheet" type="text/css" href="http://localhost/2020/core/phpcss/bootstrap-datetimepicker.css">
+<script src="http://localhost/2020/core/phpjs/bootstrap-datetimepicker.js"></script>
+<script src="http://localhost/2020/core/phpjs/ewdatetimepicker.js"></script>
+<script src="http://localhost/2020/core/phpjs/userfn15.js"></script>
 <script>
 
 // Write your client script here, no need to add script tags.
@@ -62,13 +62,13 @@ html, body, .wrapper {
 
 <table><tr><td style="width:100%; height: 21cm; text-transform:uppercase">
 <table>
-<tr><td><img src="http://localhost/VINCULACION/images/Pinacoteca-Intro.jpg" class="img-fluid" style="width:100% "></td></tr>
+<tr><td><img src="http://localhost/2020/images/Pinacoteca-Intro.jpg" class="img-fluid" style="width:100% "></td></tr>
 </table>
 </td></tr></table>	
 <div style="  display:block; page-break-before:always;"></div>
 <table><tr><td style="width:100%; height: 21cm; text-transform:uppercase">
 <table>
-<tr><td><img src="http://localhost/VINCULACION/images/Pinacoteca-Carta.jpg" class="img-fluid" style="width:100% "></td></tr>
+<tr><td><img src="http://localhost/2020/images/Pinacoteca-Carta.jpg" class="img-fluid" style="width:100% "></td></tr>
 </table>
 </td></tr></table>	
 <div style="  display:block; page-break-before:always;"></div>
@@ -154,7 +154,7 @@ $t = 0; } ?>
 
 <table><tr><td style="width:100%; height: 21cm; text-transform:uppercase">
 <table>
-<tr><td><img src="http://localhost/VINCULACION/images/Pinacoteca-Promo.jpg" class="img-fluid" style="width:100% "></td></tr>
+<tr><td><img src="http://localhost/2020/images/Pinacoteca-Promo.jpg" class="img-fluid" style="width:100% "></td></tr>
 </table>
 </td></tr></table>	
 

@@ -88,7 +88,7 @@ foreach($c as $obj){ ?>
   
   <div class="collapse" id="collapseExample">
   <div class="card card-body">
-    <iframe src="http://localhost/VINCULACION/core/Finanzas_Archivosadd.php" frameborder="0" style="    height: 350px;
+    <iframe src="http://localhost/2020/core/Finanzas_Archivosadd.php" frameborder="0" style="    height: 350px;
     width: 100%;
 }"></iframe>
   </div>

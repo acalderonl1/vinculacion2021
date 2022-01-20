@@ -109,13 +109,13 @@ if($_GET[tipo]=='A4'){
 
 <table><tr><td style="width:100%; height: 21cm; text-transform:uppercase">
 <table>
-<tr><td><img src="http://localhost/VINCULACION/images/Pinacoteca-Intro.jpg" class="img-fluid" style="width:100% "></td></tr>
+<tr><td><img src="http://localhost/2020/images/Pinacoteca-Intro.jpg" class="img-fluid" style="width:100% "></td></tr>
 </table>
 </td></tr></table>	
 <div style="  display:block; page-break-before:always;"></div>
 <table><tr><td style="width:100%; height: 21cm; text-transform:uppercase">
 <table>
-<tr><td><img src="http://localhost/VINCULACION/images/Pinacoteca-Carta.jpg" class="img-fluid" style="width:100% "></td></tr>
+<tr><td><img src="http://localhost/2020/images/Pinacoteca-Carta.jpg" class="img-fluid" style="width:100% "></td></tr>
 </table>
 </td></tr></table>	
 <div style="  display:block; page-break-before:always;"></div>
@@ -203,7 +203,7 @@ $t = 0; } ?>
 
 <table><tr><td style="width:100%; height: 21cm; text-transform:uppercase">
 <table>
-<tr><td><img src="http://localhost/VINCULACION/images/Pinacoteca-Promo.jpg" class="img-fluid" style="width:100% "></td></tr>
+<tr><td><img src="http://localhost/2020/images/Pinacoteca-Promo.jpg" class="img-fluid" style="width:100% "></td></tr>
 </table>
 </td></tr></table>	
 

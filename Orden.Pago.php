@@ -154,7 +154,7 @@ VALUES ('$_POST[cod]','$_POST[nombres]','$_POST[email]','$_POST[valor]','$_POST[
 
 // Redireccionar
  
-  echo '<meta http-equiv="refresh" content="0; url=http://localhost/VINCULACION/Orden.Pago.php?PHPKEYID='.$falsekey.'&paso=2">';
+  echo '<meta http-equiv="refresh" content="0; url=http://localhost/2020/Orden.Pago.php?PHPKEYID='.$falsekey.'&paso=2">';
 
 }
 ?>

@@ -16,7 +16,7 @@
 
 1. Start dev examples `yarn start`
 
-1. Open http://localhost:8080/basic.html
+1. Open https://localhost:8080/basic.html
 
 Note: Build relies on [gda-scripts](https://github.com/gillesdandrea/gda-scripts) that provides (kind of) webpack presets and useful scripts (sort of [create-react-app](https://github.com/facebook/create-react-app) for libraries).
 
