@@ -36,6 +36,8 @@ Page_Rendering();
 
 <?php include "header.php" ?>
 
+<!-- ACTUALIZACION DE UNA RESERVA -->
+
 <?php 
 if($_GET[IdEvento]!=''){
 Execute("UPDATE `Live_Brief` SET   `Live_Brief`.`estadisticas` = '$_GET[cantidad]', `Live_Brief`.`estadisticas2` = '$_GET[cantidad2]' WHERE  `Live_Brief`.`Id` ='$_GET[IdEvento]'");
@@ -210,6 +212,7 @@ Copiar URL
 
 <table align="center"><tr><td>
 
+<!-- CREACION DE LA TABLA DE CONTENIDO -->
 
 <table class="table table-bordered table-sm" >
 
@@ -584,6 +587,8 @@ Asistencia Presencial
  #--- END LIVE STREAMING */?>
  
  
+<!-- CARDS BODYS PARA  -->
+
 
  <?php  # -- EVENTOS DEL TEATRO
  $Activo = 1;
@@ -604,6 +609,8 @@ if($tmp->tipo !='4' && $Activo ==1){?>
 <div class="btn-group d-print-none" role="group" aria-label="Evento<?php echo $tmp->Id;?>">
 <a class="btn btn-primary btn-sm" href="Proceso.Imprimir.Brief.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(650,700);?>><i class="fa fa-eye" aria-hidden="true"></i></a>
 <a class="btn btn-primary btn-sm" href="../DataBrief/Live_Briefedit.php?Id=<?php echo $tmp->Id;?>"  <?php echo popup(300,200);?>><i class="fa fa-upload" aria-hidden="true"></i></a>
+
+<!-- CONTROL DE SESIONES -->
 
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#Estaditicas<?php echo $tmp->IdEvento;?>"><i class="fa fa-bar-chart" aria-hidden="true"></i></button>
 <?php if($UserData[auth]=='PROPIO'){?>
@@ -669,7 +676,7 @@ Asistencia Presencial
 
 
  
-
+<!-- CARD DE ALQUILER -->
 
  <?php  #-------- LALQUILER
 
