@@ -1,2 +1,2 @@
-# 20202021
-Actualización pagina web https://www.teatrocentrodearte.org/
+# Actualización y mejoras a sitio web
+https://www.teatrocentrodearte.org/
